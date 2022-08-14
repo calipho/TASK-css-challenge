@@ -1,15 +1,45 @@
-/* Add your code in each class */
+/* Add your code in each class
+You don't need to touch index.html this time, just take a look of the classes that are assigned to each html element.
+Your style.css has all classes that you need this time, you only need to fill the classes with your stylings.
+Reuse the image from challenge 1, to create the layout provided
+Use flexbox for centering your card
+
+You will be using position in couple of things
+
+
+*/
 body {
+  background-color: #f2f2f2;
 }
 .container {
+  height: 300px;
+  width: 400px;
+  overflow: scroll;
 }
 .movie-card {
+  background-color: #171865;
+  color: rgb(255, 253, 253);
+  position: sticky;
+  top: 0;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
 }
 .movie-image {
+  width: 100px;
+  height: 150px;
+  margin: auto;
 }
 .movie-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .descriptions {
+  width: 100%;
+  height: 100px;
+  overflow: scroll;
 }
 
 /*A gift from us!*/
@@ -28,4 +58,8 @@ body {
   );
 }
 .movie-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
 }
